@@ -6,7 +6,7 @@ import java.util.concurrent.CountDownLatch;
 // 可以用来确保某些操作执行完后 再运行其他操作
 // await 等待计数为0时，继续往下运行
 // countDown 计数减一
-public class TestCountDownLatch {
+public class Test4CountDownLatch {
 
     public static void main(String[] args) {
         final CountDownLatch countDownLatch = new CountDownLatch(5);

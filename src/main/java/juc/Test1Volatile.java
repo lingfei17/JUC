@@ -1,7 +1,7 @@
 package juc;
 
 //内存可见性
-public class TestVolatile {
+public class Test1Volatile {
 
     public static void main(String[] args) {
         Test test = new Test();

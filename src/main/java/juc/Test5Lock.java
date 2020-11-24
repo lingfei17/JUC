@@ -4,7 +4,7 @@ import java.util.Locale;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-public class TestLock {
+public class Test5Lock {
 
     public static void main(String[] args) {
         Ticket ticket = new Ticket();

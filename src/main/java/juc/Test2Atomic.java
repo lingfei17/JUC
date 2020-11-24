@@ -2,11 +2,10 @@ package juc;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class TestAtomic {
+public class Test2Atomic {
 
     public static void main(String[] args) {
         Test2 test2 = new Test2();
-
         for (int i = 0; i < 10; i++) {
             new Thread(test2).start();
         }
@@ -14,9 +13,7 @@ public class TestAtomic {
 }
 
 class Test2 implements Runnable {
-
     private AtomicInteger i = new AtomicInteger(0);
-
     @Override
     public void run() {
         try {

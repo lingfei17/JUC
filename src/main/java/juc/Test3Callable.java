@@ -6,7 +6,7 @@ import java.util.concurrent.FutureTask;
 
 //创建执行线程的方式3
 //实现callable接口方式
-public class TestCallable {
+public class Test3Callable {
 
     public static void main(String[] args) {
         CallableDemo callableDemo = new CallableDemo();

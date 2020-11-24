@@ -16,6 +16,7 @@ public class TestProductAndConsumer {
     }
 }
 
+/*
 
 //店员
 class Clerk {
@@ -88,5 +89,6 @@ class Consumer implements Runnable {
 }
 
 
+*/
 
 
